@@ -1,10 +1,9 @@
 call plug#begin('~/.vim/bundle')
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'Raimondi/delimitMate'
-Plug 'vim-airline/vim-airline'
+Plug 'itchyny/lightline.vim'
 Plug 'vim-syntastic/syntastic'
 call plug#end()
-
 
 "Editor
 set nocompatible
@@ -32,9 +31,6 @@ nnoremap cv "*p
 inoremap jk <esc>
 
 let g:delimitMate_expand_cr=1
-
-let g:airline_left_sep=''
-let g:airline_right_sep=''
 
 "Syntastic
 set statusline+=%#warningmsg#
