@@ -18,6 +18,7 @@ set smarttab
 set nobackup
 set noswapfile
 set wildmenu
+set backspace=2
 set encoding=utf-8
 set fileencoding=utf-8
 filetype plugin indent on
