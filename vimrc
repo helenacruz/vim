@@ -20,6 +20,9 @@ set wildmenu
 set backspace=2
 set encoding=utf-8
 set fileencoding=utf-8
+set colorcolumn=80
+set textwidth=80
+set fo+=t
 filetype plugin indent on
 
 syntax enable
@@ -31,6 +34,7 @@ nnoremap cv "*p
 inoremap jk <esc>
 
 let g:delimitMate_expand_cr=1
+let g:lightline = { 'colorscheme': 'seoul256' }
 
 "Syntastic
 set statusline+=%#warningmsg#
